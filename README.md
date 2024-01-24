@@ -8,8 +8,6 @@ Install the required packages:
 pip install -r requirements.txt
 ```
 
-Download the datasets via [this link](https://drive.google.com/file/d/1FAr2LW3RSFdHk9v3CJWVGmcz-MSnP44M/view?usp=sharing) and unzip it as the `./data` folder.
-
 Tasks and datasets are organized as follows:
 ```
 ├── MATH
