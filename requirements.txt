@@ -1,0 +1,14 @@
+openai
+tiktoken
+ipdb
+mako
+Pillow
+transformers>=4.34.0
+pytest
+opencv-python
+scipy
+face-detection
+augly
+diffusers
+accelerate>=0.13.2
+ipykernel
