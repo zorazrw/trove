@@ -30,7 +30,7 @@ Tasks and datasets are organized as follows:
 
 ### Our Method: TroVE
 
-```python
+```bash
 python run_trove.py --task_name "math/algebra"
 ```
 
@@ -41,8 +41,15 @@ Note that the specified `--task_name` argument should be lowercased.
 
 ### Baseline Methods: Primitive & Instance
 
-```python
+```bash
 python baseline.py --task_name "math/algebra" --suffix "primitive"  # or "instance"
+```
+
+Note that for GQA dataset, we implement the `locate_objects` and `visual_qa` functions as fast apis.
+So you need to launch the server first (as below), then run the trove/baseline experiments.
+
+```bash
+uvicorn server.gqa:app
 ```
 
 ## Evaluation
